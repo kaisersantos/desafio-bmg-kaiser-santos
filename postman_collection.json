@@ -1,0 +1,279 @@
+{
+  "info": {
+    "name": "API V1",
+    "description": "Documentação da API versão 1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "POST /api/v1/auth/sign-in",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/auth/sign-in",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "auth", "sign-in"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "POST /api/v1/cart/add-item",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/cart/add-item",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "cart", "add-item"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "PATCH /api/v1/cart/{productId}/remove-item",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/cart/{productId}/remove-item",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "cart", "{productId}", "remove-item"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "GET /api/v1/cart/current",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/cart/current",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "cart", "current"]
+        }
+      }
+    },
+    {
+      "name": "GET /api/v1/cart/history",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/cart/history",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "cart", "history"]
+        }
+      }
+    },
+    {
+      "name": "POST /api/v1/payment/credit-card",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/payment/credit-card",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "payment", "credit-card"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "POST /api/v1/payment/pix",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/payment/pix",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "payment", "pix"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "POST /api/v1/product",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/product",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "product"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "PATCH /api/v1/product/{id}/add-stock",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/product/{id}/add-stock",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "product", "{id}", "add-stock"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "PUT /api/v1/product/{id}",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/product/{id}",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "product", "{id}"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "DELETE /api/v1/product/{id}",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/product/{id}",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "product", "{id}"]
+        }
+      }
+    },
+    {
+      "name": "GET /api/v1/product/{id}",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/product/{id}",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "product", "{id}"]
+        }
+      }
+    },
+    {
+      "name": "GET /api/v1/products",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/products",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "products"]
+        }
+      }
+    },
+    {
+      "name": "POST /api/v1/user",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/user",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "user"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "POST /api/v1/user/admin",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/user/admin",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "user", "admin"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
