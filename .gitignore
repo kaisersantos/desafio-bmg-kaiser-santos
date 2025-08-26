@@ -1,0 +1,62 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+out/
+
+# VS Code / Rider / VS
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+packages/
+*.nuget.props
+*.nuget.targets
+
+# SQLite database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+
+# Docker
+*.pid
+*.log
+docker-compose.override.yml
+
+# Publish outputs
+app.publish/
+publish/
+
+# Environment files
+.env
+.env.*
+secrets.json
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Dotnet generated
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Others
+*.DS_Store
+Thumbs.db
