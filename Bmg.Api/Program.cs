@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc.ApplicationModels;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddInfra();
+builder.Services.AddPaymentGateways();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
