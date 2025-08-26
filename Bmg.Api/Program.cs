@@ -31,6 +31,8 @@ builder.Services.AddSwagger();
 
 var app = builder.Build();
 
+app.InitializeDatabase();
+
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 if (app.Environment.IsDevelopment())
